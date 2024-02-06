@@ -10,6 +10,8 @@ function toggleMode(mode) {
     }
 }
 
+
+
 function checkAnswer() {
     var userAnswer = document.getElementById('answer').value.toLowerCase();
     var correctAnswer = 'victoria memorial';
@@ -19,7 +21,9 @@ function checkAnswer() {
         resultDiv.textContent = 'Correct! You identified the heritage place.';
         resultDiv.style.color = 'green';
     } else {
-        resultDiv.textContent = 'Incorrect. Try again!';
-        resultDiv.style.color = 'red';
+        // Instead of displaying an incorrect message, you can set a success message here.
+        resultDiv.textContent = 'Answer submitted successfully!';
+        resultDiv.style.color = 'red';  // You can set the color to your preference.
     }
 }
+
