@@ -1,0 +1,253 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 9999;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   background-color: #9370DB;
+} */
+
+/* .toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.toggle-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.riddle {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f84b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+} */
+
+
+/* //Add this to your existing styles.css */
+/* .navbar {
+    background-color: #9370DB; 
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+     
+
+}
+
+.navbar h1 {
+    color: #fff; 
+    margin: 0; 
+    text-align: center; 
+    flex-grow: 1; 
+}
+ */
+
+ /* Add this to your existing styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 9999;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #045770;
+    color: #fff; /* Default text color for dark mode */
+}
+
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.toggle-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.riddle {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f84b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Add this to your existing styles.css */
+.navbar {
+    background-color: #8f69db; /* Purple Light */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar h1 {
+    color: #fff; 
+    margin: 0; 
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+/* Light mode styles */
+body.light-mode .container {
+    background-color: #68a5bd; /* Light blue for container */
+    color: #000; /* Black text for container */
+}
+
+/* Dark mode styles */
+body.dark-mode .container {
+    background-color: #024c62; /* Dark blue for container */
+    color: #fff; /* White text for container */
+}
+
+
